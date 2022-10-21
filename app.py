@@ -28,4 +28,5 @@ class Language(Resource):
     def post(self):
         languages.append(api.payload)
         return {'result' : 'Language added'}, 201 
+        :D
 '''
